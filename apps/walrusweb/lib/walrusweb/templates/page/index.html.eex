@@ -13,6 +13,14 @@
 <%= @outsideappkey %>
 </p>
 
+<p>
+  Eve regions: <%= @eve_api_key %>
+</p>
+
+<p>
+  One eve region info: <%= @eve_region_info_too %>
+</p>
+
 <div class="row marketing">
   <div class="col-lg-6">
     <h4>Resources</h4>
