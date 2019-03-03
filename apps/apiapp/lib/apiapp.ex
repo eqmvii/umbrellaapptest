@@ -17,6 +17,8 @@ defmodule Apiapp do
   end
 
   def cross_app_test do
-    "this string came from apiapp"
+    walrus = HTTPoison.get! "http://httparrot.herokuapp.com/get"
+    IO.inspect walrus
+    "afer poison this string came from apiapp"
   end
 end
